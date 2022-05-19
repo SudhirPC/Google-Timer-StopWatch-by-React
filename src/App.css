@@ -1,0 +1,90 @@
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,87,1) 59%, rgba(0,212,255,1) 100%);  /* background: linear-gradient(rgb(179, 111, 111), rgb(101, 133, 202)) */
+
+}
+
+.App {
+  text-align: center;
+  /* align-items: center; */
+  justify-content: center;
+}
+.Timer{
+  /* border: 1px solid black; */
+  margin: 10px;
+  text-align:center; 
+  /* margin-top:1%; */
+}
+.Timer>h1{
+  color:red;
+}
+.timertitle{
+  /* border: 1px solid red; */
+  margin:auto;
+text-align:center; 
+}
+.timerbutton>button{
+
+  background-color:rgb(160, 198, 171)
+}
+.timerbutton>button:hover{
+  background-color: rgb(176, 239, 239)
+}
+.timertitle>input{
+  margin-right: 12px;
+  width:60px;
+  height:20px
+}
+button{
+  margin-top: 20px;
+  margin-right: 30px;
+  height:30px;
+  border-radius:7px;
+  cursor: pointer;
+ 
+}
+
+.structuremain{
+  text-align:center; 
+  background-color:rgb(201, 214, 219);
+  width:60%;
+  height:300px;
+  margin: auto;
+  margin-top:5%
+
+}
+.structuremain>button{
+  font-size:larger;
+  font-weight:bold;
+}
+.structure{
+  text-align:center; 
+  margin-top:2%;
+ 
+
+}
+.structure>button{
+cursor: pointer;
+border: none;
+height:30px;
+width:100px;
+border-radius:7px;
+  border-bottom: 1px solid rgb(60, 31, 141);
+}
+.structure>button:focus{
+  height:33px;
+  width:105px;
+  border-bottom: 4px solid rgb(74, 137, 158);
+}
+
+.stopwatchspan>span{
+  border:1px solid black;
+  margin-right:10px;
+ padding:5px;
+}
+.stopwatchbutton>button{
+  background-color:rgb(160, 198, 171)
+}
+.stopwatchbutton>button:hover{
+  background-color: rgb(176, 239, 239)
+ }
